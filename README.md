@@ -1,12 +1,11 @@
-
 # cs600f2019-project1-starter
 
-This repository contains the starter for project one in Computer Science 600
-Fall 2019. The main directory of this repository contains the LaTeX source code
-for a project that is designed for use with [GitHub
+This repository contains the starter for project one (proposal template)
+in Computer Science 600 Fall 2019. The main directory of this repository
+contains the LaTeX source code for a project that is designed for use with [GitHub
 Classroom](https://classroom.github.com/). To learn more about the course in
 which these assignments were completed, please visit the [Computer Science Thesis Fall 2019 Allegheny College GitHub
-Organization](https://github.com/Allegheny-CS-SeniorThesis-2018).
+Organization](https://github.com/allegheny-computer-science-thesis-2019).
 
 The LaTeX file in this repository is automatically compiled with [Travis
 CI](https://travis-ci.org/), thus ensuring that it compiles correctly and,
@@ -23,17 +22,9 @@ senior thesis research project. Please refer to the source code in this file for
 an explanation of the components of a senior thesis proposal and the way in
 which you create them in LaTeX.
 
-If your LaTeX source code meets all of the established requirements, then you
-will see a green &#x2714; in the listing of commits in GitHub. If your
-submission does not meet the requirements, a red &#x2717; will appear instead.
 Your course instructor will reduce a researcher's grade for this assignment if
-the red &#x2717; appears on the last commit in GitHub immediately before the
-assignment's due date on October 30, 2018 at 11:59 pm.
-
-Yet, if the green &#x2714; appears on the last commit in your GitHub repository,
-then you satisfied all of the main checks, thereby allowing the course
-instructors to further evaluate other aspects of your LaTeX source code and
-writing, as further described in the remainder of this assignment sheet. Unless
+the pdf of your completed proposal document has not been properly released before the
+assignment's due date on October 16, 2019 at 11:59 pm. Unless
 you provide the course instructors with documentation of the extenuating
 circumstances that you are facing, no late work will be considered towards your
 grade for this project.
@@ -42,13 +33,7 @@ grade for this project.
 
 If you have not done so already, please read all of the relevant [GitHub
 Guides](https://guides.github.com/) that explain how to use many of the features
-that GitHub provides. In particular, please make sure that you have read the
-following GitHub guides: [Mastering
-Markdown](https://guides.github.com/features/mastering-markdown/), [Hello
-World](https://guides.github.com/activities/hello-world/), and [Documenting Your
-Projects on GitHub](https://guides.github.com/features/wikis/). Each of these
-guides will help you to understand how to use both [GitHub](http://github.com)
-and [GitHub Classroom](https://classroom.github.com/).
+that GitHub provides.
 
 ## Travis
 
@@ -102,16 +87,16 @@ Please note that the faculty members who read the PDF that is generated from the
 LaTeX source code will only do so by downloading the "tagged" release of the
 file `senior_thesis_proposal.pdf` that has a version number greater than
 1.0.0. That is, if your commit is tagged with
-`senior_thesis_proposal-gkapfham-1.0.0`, then the file
+`senior_thesis_proposal-jjumadinova-1.0.0`, then the file
 `senior_thesis_proposal.pdf` should be available for download in the
 "Releases" tab in your GitHub repository for this project under the name
-`senior_thesis_proposal-gkapfham-1.0.0`.
+`senior_thesis_proposal-jjumadinova-1.0.0`.
 
 Once you have finished making a single small change to the
 `senior_thesis_proposal.tex`, you should commit your file using a `git
 commit` command. Now, to create your first tag for this repository you could
-type `git tag senior_thesis_proposal-gkapfham-0.1.0`. Of course, you should
-substitute your user name for `gkapfham` when you create the tag. At this point,
+type `git tag senior_thesis_proposal-jjumadinova-0.1.0`. Of course, you should
+substitute your user name for `jjumadinova` when you create the tag. At this point,
 you are ready to push your changes with the appropriate tag by typing the
 command `git push -u origin master --tags`. After waiting for a period of time,
 you should see that your GitHub repository features a new release of the
@@ -135,7 +120,7 @@ you would like to receive these updates, then you can type this command in the
 main directory for this assignment:
 
 ```
-git remote add download git@github.com:Allegheny-CS-SeniorThesis-2018/cs600-F2018-project1-starter.git
+git remote add download git@github.com:allegheny-computer-science-thesis-2019/cs600f2019_proposal.git
 ```
 
 You should only need to type this command once; typing the command additional
@@ -157,14 +142,14 @@ manually resolve them with the help of the instructor or a teaching assistant.
 
 If you have found a problem with this assignment's provided source code, then
 you can go to the [Computer Science 600 Project 1
-Starter](https://github.com/Allegheny-CS-SeniorThesis-2018/cs600-F2018-project1-starter)
+Starter](https://github.com/allegheny-computer-science-thesis-2019/cs600f2019_proposal)
 repository and create an issue by clicking the "Issues" tab and then clicking
 the green "New Issue" button. To ensure that your issue is properly resolved,
 please provide as many details as is possible about the problem that you
 experienced.
 
 Please note that these assignment sheets have been developed and tested on an
-Ubuntu 16.04 workstation running a recent version of LaTeX that was manually
+Ubuntu 18.04 workstation running a recent version of LaTeX that was manually
 installed using the TeXLive installer. It is also worth noting that you can
 compile the `senior_thesis_proposal.tex` file using LaTeX development tools
 such as `latexmk` or `pdflatex`. If you are unable to compile this file with
